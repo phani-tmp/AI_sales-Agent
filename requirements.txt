@@ -1,14 +1,17 @@
+streamlit
+langchain-groq
+langchain
+sentence-transformers
+twilio
+flask
+transformers
+torch
+chromadb
 fastapi
 uvicorn
-langchain
 crewai
 openai-whisper
 vaderSentiment
 coqui-tts
-twilio
-# sqlite3
 python-dotenv
-transformers
-pandas 
-chromadb 
-sentence-transformers
+pandas
