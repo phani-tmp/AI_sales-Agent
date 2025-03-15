@@ -15,4 +15,3 @@ vaderSentiment
 coqui-tts
 python-dotenv
 pandas 
-pysqlite3 

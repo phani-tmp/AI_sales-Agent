@@ -201,9 +201,7 @@
 
 #     # Run Streamlit app
 #     streamlit_app() 
-import sys
-__import__("pysqlite3")
-sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+
 import threading
 from langchain.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
