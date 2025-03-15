@@ -410,7 +410,7 @@ def streamlit_app():
     st.write("Enter the user's phone number to initiate a call and analyze sentiment.")
 
     # Input phone number
-    phone_number = st.text_input("Enter the user's phone number (with country code):", "+12403554770")
+    phone_number = st.text_input("Enter the user's phone number (with country code):")
 
     # Button to initiate call
     if st.button("Make Call"):
